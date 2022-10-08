@@ -8,7 +8,8 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 60px;
+    padding: 25px 60px ;
+    background-color: rgba(193, 105, 255, 0.722);
 }
 
 ul{
@@ -37,4 +38,30 @@ justify-content: space-between;
 
 header li {
     margin-left: 20px;
+}
+
+header a{
+    margin: 0 40px 0 40px;
+    padding: 10px 10px 10px 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header a:hover {
+    background-color: black;
+    border-radius: 8px;
+    
+}
+
+#hero-content a:hover{
+    background-color: yellow;
+    border-radius: 8px;
+}
+
+#hero-content a{
+    color: black;
+    margin: 0 10px 0 10px;
+    padding: 10px 10px 10px 10px;
+    
 }
