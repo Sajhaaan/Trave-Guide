@@ -9,7 +9,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 25px 60px ;
-    background-color: rgba(193, 105, 255, 0.722);
+    background-color: rgb(53, 0, 91);
 }
 
 ul{
@@ -48,8 +48,9 @@ header a{
     font-weight: bold;
 }
 
-header a:hover {
-    background-color: black;
+header nav a:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
     border-radius: 8px;
     
 }
@@ -57,11 +58,12 @@ header a:hover {
 #hero-content a:hover{
     background-color: yellow;
     border-radius: 8px;
+    color: black;
 }
 
 #hero-content a{
-    color: black;
+    color: rgb(255, 255, 255);
     margin: 0 10px 0 10px;
-    padding: 10px 10px 10px 10px;
+    padding: 6px
     
 }
