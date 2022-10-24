@@ -1,3 +1,4 @@
+
 #hero {
     height:800px;
     background: url(./images/places/ocean.jpg);
@@ -33,4 +34,32 @@
 
 #hero-content h1{
     font-size:xx-large
+}
+
+.destination img {
+    height: 200px;
+    width: 100%;
+    border-radius: 4px;
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+    object-fit: contain;
+    
+}
+
+.destination {
+    margin: 0 20px ;
+}
+
+
+#destinations {
+    width: 90%;
+    display: flex;
+    margin: auto;
+    margin-bottom: 40px;
+    
+}
+
+#highlights {
+    /* text-shadow: 2px 4px 7px rgb(125, 97, 97); */
+    text-align: center;
+    background-color: lightblue;
 }
