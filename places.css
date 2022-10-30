@@ -1,0 +1,46 @@
+body {
+    background: linear-gradient(30deg, rgb(77, 77, 77), rgb(58, 58, 58) );
+
+}
+
+header {
+    position: static;
+}
+
+main ul {
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+main li img {
+    height: 288px;
+    width: 280px;
+    border: 6px;
+    object-fit: cover;
+}
+
+main li {
+    overflow: hidden;
+    display: flex;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+.text-container {
+    padding: 0 20px;
+}
+
+
+
+.inline-container {
+    width: 50%;
+    margin: 20px 20px;
+    
+}
+
+.img-container {
+    display: flex;
+    
+}
