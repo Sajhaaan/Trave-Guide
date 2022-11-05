@@ -1,6 +1,9 @@
+* {
+    box-sizing: border-box;
+}
 body {
     background: linear-gradient(30deg, rgb(77, 77, 77), rgb(58, 58, 58) );
-
+    color: rgb(68,68,68);
 }
 
 header {
@@ -8,8 +11,12 @@ header {
 }
 
 main ul {
-    width: 80%;
-    margin: 0 auto;
+    width: 1200px;
+    margin: 0 auto 48px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px 20px;
+
     
 }
 
@@ -20,7 +27,12 @@ main li img {
     object-fit: cover;
 }
 
+li:nth-child(3) {
+    grid-column: 1 / span 2;
+}
+
 main li {
+    
     overflow: hidden;
     display: flex;
     background-color: white;
@@ -30,17 +42,47 @@ main li {
 
 .text-container {
     padding: 0 20px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
 }
 
-
-
-.inline-container {
-    width: 50%;
-    margin: 20px 20px;
-    
-}
 
 .img-container {
     display: flex;
     
+}
+
+.actions {
+    
+    text-align: right;
+}
+
+.actions a {
+    text-decoration: none;
+    color: rgb(31, 199, 214);
+    padding: 6px;
+    border-radius: 6px;
+}
+
+.actions a:hover {
+    background-color: rgb(217, 245, 249);
+    
+
+}
+
+header nav a{
+    color: lightskyblue;
+}
+
+#page-logo  a{
+    color: rgb(183, 230, 235);
+}
+
+header nav a:hover{
+    background-color: rgb(183, 230, 235);
+}
+
+.text-container {
+    margin: 0;
 }

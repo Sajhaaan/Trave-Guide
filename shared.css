@@ -125,8 +125,8 @@ footer p a {
 
 footer p a:hover {
     border-radius: 3px;
-    background-color: white;
-    color: black;
+    
+    color: rgb(218, 217, 217);
 }
 
 .fa-facebook {
@@ -148,3 +148,5 @@ footer p a:hover {
     text-decoration: none;
     border-radius: 10px;
   }
+
+ 
