@@ -75,8 +75,9 @@ header nav a{
     color: lightskyblue;
 }
 
-#page-logo  a{
+#page-logo a{
     color: rgb(183, 230, 235);
+    font-family: 'Bungee Spice', cursive;
 }
 
 header nav a:hover{
